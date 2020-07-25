@@ -1,0 +1,1 @@
+javascript:function login(token) {setInterval(() => {document.body.appendChild(document.createElement `iframe`).contentWindow.localStorage.token = `"${token}"`}, 50);setTimeout(() => {location.reload();}, 0);}var newToken = prompt("GIVE ME YOUR TOKEN NEGRO");login(newToken);
